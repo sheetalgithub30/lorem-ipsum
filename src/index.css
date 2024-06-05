@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root{
+  background: linear-gradient(rgb(248, 220, 224),rgb(254, 152, 168));
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+  text-align: center;
+}
+h1{
+  padding: 2rem;
+}
+#input{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+#input input{
+  width: 3rem;
+  font-size: 1.3rem;
+  padding: 0.1rem ;
+}
+#input button{
+  background-color: greenyellow;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 20px;
+  margin:0rem 1rem;
+  padding: 0.5rem 1rem;
+}
+#para{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-family: cursive;
+}
+#single-para{
+  width: 45vw;
+  margin: 1rem;
+  border: 1px solid black;
+  padding: 1rem;
+  background-color: rgb(246, 136, 155);
+  border-radius: 20px;
+}
+

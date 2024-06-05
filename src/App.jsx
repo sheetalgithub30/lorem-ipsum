@@ -15,15 +15,15 @@ function App() {
   return (
      <>
      <h1>TIRED OF BORING LOREM IPSUM?</h1>
-     <div>
-      <label>Paragraphs</label>
+     <div id="input">
+      <label>Paragraphs : </label>
       <input type="number" value={number} onChange={(e)=>setNumber(e.currentTarget.value)}></input>
       <button onClick={getPara}>GENERATE</button>
      </div>
      <div id="para">
        {
         output.map((ele,index)=>{
-         return <p key={index}>{ele.para}</p>
+         return <p id="single-para" key={index}>{ele.para}</p>
         })
        }
      </div>
