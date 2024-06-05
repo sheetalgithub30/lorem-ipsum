@@ -7,6 +7,15 @@ function App() {
   const [output,setOutput] = useState([]);
 
   function getPara(){
+    if(number >8 ){
+      alert("Ayyo ! you are demanding very much paragraph in one go, kindly take little litlle 😀");
+    }
+    if(number <= 0){
+          alert("Ayyo ! you know that you need negative paragraph😵, still giving u one 😁");
+          setOutput(data.slice(0,1));
+          setNumber(1);
+          return;
+    }
      for(let i=0;i<number;i++){
       setOutput(data.slice(0,i+1));
      }
